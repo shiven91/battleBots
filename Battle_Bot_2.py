@@ -17,8 +17,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 # Target Term
-my_username = "@BattleBot_2"
-conversation_partner = "@BattleBot_1"
+my_username = "@siven91"
+conversation_partner = "@gjvarkey"
 
 # Response Lines
 response_lines = [
