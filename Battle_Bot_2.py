@@ -4,12 +4,7 @@ import pandas as pd
 import tweepy
 import time
 import json
-
-# Twitter API Keys
-consumer_key = "fhhgMuH6ihuUkegPFr6XMYyAA"
-consumer_secret = "vZTDk62m1G8eG5MbvxQv6g8uPOCiZgDl8SmyRALcVRirf2FArF"
-access_token = "846156247636344833-qcMXj1HVov3MQqKL2KzoeBejqIIGcpn"
-access_token_secret = "dv0WNpnl8iULbrKaM95PdnwTj5KANMQ9axdXbtqKDH5Zu"
+from twitterKey import consumer_key,consumer_secret,access_token,access_token_secret
 
 # Twitter Credentials
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
